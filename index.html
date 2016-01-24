@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div>
+      <h1 class="heading">Youtube SITE</h1>
+    </div>
+
+    <div id="buttons", style="text-align:center;">
+      <label> <input id="query" placeholder="Insert Text" type="text"/>
+        <button class="button button1" id="search-button" disabled onclick="search()">Search</button>
+      </label>
+    </div>
+
+    <div id="search-container">
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="search.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+  </body>
+</html>
