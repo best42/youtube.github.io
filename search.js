@@ -33,7 +33,7 @@ function search() {
       var titleName = "<h4>" + nameVideo + "</h4>"
 
       var lists = "<iframe src="+"https://www.youtube.com/embed/" + id +
-      " name=" + nameVideo + " width='800' height='500' ></iframe>"
+      " name=" + nameVideo + " width='800' height='500' allowfullscreen></iframe>"
       // console.log(lists);
       // append heading name and video into search container
       $('#search-container').append(titleName);
