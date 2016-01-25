@@ -10,6 +10,13 @@ $(window).load(function() {
     events.preventDefault();
     search();
   });
+  $("#query").keyup(function(event){
+    if(event.keyCode == 13){
+      $("#query").click();
+      event.preventDefault();
+      search();
+    }
+  });
 });
 
 // Search for a specified string.
